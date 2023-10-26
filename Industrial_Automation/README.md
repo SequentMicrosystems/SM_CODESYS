@@ -1,4 +1,4 @@
-#SM_IND
+# SM_IND
 
 [Industrial Automation V3 8-Layer Stackable HAT for Raspberry Pi](https://sequentmicrosystems.com/collections/all-io-cards/products/industrial-raspberry-pi) CODESYS library.
 We include the source code library in the package so everyone can modify. Note that it is an open source library with absolutely no warranty.
