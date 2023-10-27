@@ -10,7 +10,7 @@
   <Device hideInCatalogue="false">
     <DeviceIdentification>
       <Type>500</Type>
-      <Id>ffff 0011</Id>
+      <Id>ffff 0014</Id>
       <Version>1.1.0.0</Version>
     </DeviceIdentification>
     <DeviceInfo>
