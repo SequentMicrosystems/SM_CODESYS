@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceDescription xmlns="http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd" xmlns:ts="http://www.3s-software.com/schemas/TargetSettings-0.1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Types namespace="local">
+  </Types>
+  <Strings namespace="local">
+    <Language lang="en">
+    </Language>
+  </Strings>
+  <Device hideInCatalogue="false">
+    <DeviceIdentification>
+      <Type>500</Type>
+      <Id>ffff 0016</Id>
+      <Version>1.1.0.0</Version>
+    </DeviceIdentification>
+    <DeviceInfo>
+      <Name name="local:ModelName">SM_MIO</Name>
+      <Description name="local:DeviceDescription">Multi-IO 8-Layer Stackable HAT board</Description>
+      <Vendor name="local:VendorName">Sequent Microsystems</Vendor>
+      <OrderNumber>-</OrderNumber>
+
+    </DeviceInfo>
+    <Connector moduleType="500" interface="Raspberry.I2C" role="child" explicit="false" connectorId="1" hostpath="-1">
+      <InterfaceName name="local:PCI">I²C-Bus</InterfaceName>
+      <Slot count="1" allowEmpty="false">
+      </Slot>
+      <DriverInfo needsBusCycle="false">
+        <RequiredLib libname="Raspberry I2C MULTIIO" vendor="Sequent Microsystems" version="1.1.0.0" identifier="deviceLib">
+          <FBInstance basename="$(DeviceName)" fbname="SM_MIO">
+            <Initialize methodName="Initialize" />
+            <CyclicCall methodname="AfterReadInputs" task="#buscycletask" whentocall="afterReadInputs" />
+			<CyclicCall methodname="BeforeWriteOutputs" task="#buscycletask" whentocall="beforeWriteOutputs" />
+          </FBInstance>
+        </RequiredLib>
+      </DriverInfo>
+      <HostParameterSet>
+        <Parameter ParameterId="1" type="std:USINT">
+          <Attributes channel="none" download="true" functional="false" onlineaccess="read" />
+          <Default>16#6</Default>
+          <Name name="local:Id393218">I²C address</Name>
+          <Description name="local:Id393218.Desc">Address of the device</Description>
+        </Parameter>
+      </HostParameterSet>
+    </Connector>
+  </Device>
+</DeviceDescription>
