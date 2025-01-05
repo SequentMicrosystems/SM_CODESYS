@@ -1,4 +1,4 @@
-# SM_MIO
+# SM_BAS
 
 [Building Automation 8-Layer Stackable HAT for Raspberry Pi](https://sequentmicrosystems.com/collections/all-io-cards/products/building-automation-8-layer-stackable-hat-v4-for-raspberry-pi) CODESYS library.
 We include the source code library in the package so everyone can modify. Note that it is an open source library with absolutely no warranty.
