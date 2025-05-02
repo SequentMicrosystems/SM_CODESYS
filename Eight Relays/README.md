@@ -1,6 +1,6 @@
 # SM_8RELAY
 
-[Eight Relays 4A/120V 8-Layer Stackable HAT for Raspberry Pi](https://sequentmicrosystems.com/products/8-relays-stackable-card-for-raspberry-pi) CODESYS library.
+[Eight Relays 4A/120V 8-Layer Stackable HAT for Raspberry Pi](https://sequentmicrosystems.com/products/eight-relays-stackable-card-for-raspberry-pi) CODESYS library.
 We include the source code library in the package so everyone can modify. Note that it is an open source library with absolutely no warranty.
 ## Install
 For easy install downoad the .package file and open it on your computer, Codesys installer will know what to do with it.

@@ -1,6 +1,6 @@
 # SM_HOME
 
-[Home Automation V4 8-Layer Stackable HAT for Raspberry Pi](https://sequentmicrosystems.com/collections/all-io-cards/products/raspberry-pi-home-automation-card) CODESYS library.
+[Home Automation V4 8-Layer Stackable HAT for Raspberry Pi](https://sequentmicrosystems.com/products/home-automation-raspberry-pi-hat) CODESYS library.
 We include the source code library in the package so everyone can modify. Note that it is an open source library with absolutely no warranty.
 ## Install
 For easy install downoad the .package file and open it on your computer, Codesys installer will know what to do with it.

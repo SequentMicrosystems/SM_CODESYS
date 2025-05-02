@@ -1,6 +1,6 @@
 # SM_MIO
 
-[Sixteen LV Digital Inputs 8-Layer Stackable HAT for Raspberry Pi](https://sequentmicrosystems.com/collections/all-io-cards/products/16-universal-inputs-card-for-raspberry-pi) CODESYS library.
+[Sixteen LV Digital Inputs 8-Layer Stackable HAT for Raspberry Pi](https://sequentmicrosystems.com/products/sixteen-lv-digital-inputs-card-for-raspberry-pi) CODESYS library.
 We include the source code library in the package so everyone can modify. Note that it is an open source library with absolutely no warranty.
 ## Install
 For easy install downoad the .package file and open it on your computer, Codesys installer will know what to do with it.
