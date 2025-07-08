@@ -55,3 +55,6 @@ dkms.conf
 *.opt
 *.~u
 *.precompilecache
+*_RECOVERED_*
+*.Device.Application.*
+*.m4
