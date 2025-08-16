@@ -10,7 +10,7 @@
     <DeviceIdentification>
       <Type>500</Type>
       <Id>ffff 0012</Id>
-      <Version>1.1.0.0</Version>
+      <Version>1.1.0.1</Version>
     </DeviceIdentification>
     <DeviceInfo>
       <Name name="local:ModelName">SM_BAS</Name>
@@ -24,11 +24,11 @@
       <Slot count="1" allowEmpty="false">
       </Slot>
       <DriverInfo needsBusCycle="false">
-        <RequiredLib libname="Raspberry I2C BAS" vendor="Sequent Microsystems" version="1.1.0.0" identifier="deviceLib">
+        <RequiredLib libname="Raspberry I2C BAS" vendor="Sequent Microsystems" version="1.1.0.1" identifier="deviceLib">
           <FBInstance basename="$(DeviceName)" fbname="SM_BAS">
             <Initialize methodName="Initialize" />
             <CyclicCall methodname="AfterReadInputs" task="#buscycletask" whentocall="afterReadInputs" />
-			<CyclicCall methodname="BeforeWriteOutputs" task="#buscycletask" whentocall="beforeWriteOutputs" />
+		k<CyclicCall methodname="BeforeWriteOutputs" task="#buscycletask" whentocall="beforeWriteOutputs" />
           </FBInstance>
         </RequiredLib>
       </DriverInfo>
