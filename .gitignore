@@ -57,4 +57,5 @@ dkms.conf
 *.precompilecache
 *_RECOVERED_*
 *.Device.Application.*
+*CODESYS_Control_for_raspberry_Pi_*.Application.*
 *.m4
