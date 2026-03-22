@@ -1,13 +1,13 @@
-# SM_BAS
+# SM_16UOUT
 
 [Sixteen 0-10V Analog Outputs 8-Layer Stackable HAT for Raspberry Pi ](https://sequentmicrosystems.com/collections/all-io-cards/products/sixteen-0-10v-analog-outputs) CODESYS library.
-We include the source code library in the package so everyone can modify. Note that it is an open source library with absolutely no warranty.
+We include the source code library in the package so everyone can modify it. Note that it is an open-source library with no warranty.
 ## Install
-For easy install downoad the .package file and open it on your computer, Codesys installer will know what to do with it.
+For easy installation, download the .package file and open it on your computer. The Codesys installer will know what to do with it.
 ## Usage
-Checkout our example project for guidance.
+Check out our example project for guidance.
 
-For using multiple card in the same time you need to set the card stack lever from jumpers and modify the "I2C address" parameter of the  device, below you find the correspondence between stack level and hardware address:
+To use multiple cards at the same time, you need to set the card stack lever via jumpers and modify the device's "I2C address" parameter. Below, you find the correspondence between stack level and hardware address:
 
 | Stack Level | I2C address |
 | --- | --- |
