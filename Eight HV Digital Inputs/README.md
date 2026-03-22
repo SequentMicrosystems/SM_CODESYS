@@ -1,4 +1,4 @@
-# SM_MIO
+# SM_8HVIN
 
 [Eight HV Digital Inputs 8-Layer Stackable HAT for Raspberry Pi](https://sequentmicrosystems.com/collections/all-io-cards/products/eight-hv-digital-inputs-for-raspberry-pi) CODESYS library.
 We include the source code library in the package so everyone can modify. Note that it is an open source library with absolutely no warranty.
